@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #20262e, #3a4750);
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+.input-box {
+    display: flex;
+    background: #111;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.input-box input {
+    flex: 1;
+    padding: 17px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.input-box button {
+    background: white;
+    border: none;
+    padding: 0 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.input-box button:hover {
+    background: #ddd;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 35px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    text-align: left;
+}
+.item {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.delete-btn:hover {
+    background: #ff1a1a;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.complete-btn {
+    background: #4caf50;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.complete-btn:hover {
+    background: #3e8e41;
+}
+
+.completed {
+    background: rgba(76, 175, 80, 0.25);
+    text-decoration: line-through;
+    opacity: 0.7;
+}
